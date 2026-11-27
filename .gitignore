@@ -1,0 +1,10 @@
+# built output: GitHub Actions builds it from src/ on every push
+site/
+# original captures and source files stay on this Mac
+_capture/
+.DS_Store
+**/.DS_Store
+# Finder duplicates
+* 2.*
+__pycache__/
+.taste-skill/

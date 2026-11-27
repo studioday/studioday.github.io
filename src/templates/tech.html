@@ -1,0 +1,69 @@
+{{sky}}
+
+<section class="tech-stage" data-tech-stage>
+  <!-- each project's glow: the dial lights the one it lands on -->
+  <div class="tech-glow" aria-hidden="true">{{glows}}</div>
+  <div class="tech-portrait" data-ascii data-src="/assets/img/portrait.jpg"><canvas role="img" aria-label="Portrait of Tanmay Kaper redrawn in ASCII characters; moving the cursor over it reveals the photo underneath"></canvas></div>
+
+  <div class="tech-intro">
+    <h1 class="drop-title drop-title--left" data-drop-title>Tech</h1>
+    <p class="tech-intro__sub" data-reveal style="--delay:0.6s">Code, builds and experiments</p>
+  </div>
+
+  <div class="hero-card hero-card--tech" data-parallax="-0.25" data-parallax-origin="center" data-sway="14" aria-hidden="true">{{card}}</div>
+
+  <div class="tech-now" aria-live="polite">
+    <p class="tech-now__index" data-dial-index>01 / {{count}}</p>
+    <h2 class="tech-now__title" data-dial-title data-face="{{first_face}}">{{first_title}}</h2>
+    <p class="tech-now__tagline" data-dial-tagline>{{first_tagline}}</p>
+    <ul class="tech-now__stack" data-dial-stack>{{first_stack}}</ul>
+  </div>
+
+  <p class="tech-hint">Drag the dial or use <kbd>&larr;</kbd> <kbd>&rarr;</kbd> to turn. <kbd>Enter</kbd> opens.</p>
+
+  <div class="dial" data-dial>
+    <div class="dial__wheel" data-dial-wheel tabindex="0" role="listbox" aria-label="Tech projects">
+      <svg class="dial__face" viewBox="-500 -500 1000 1000" aria-hidden="true">
+        <defs>
+          <radialGradient id="dial-shade" cx="0" cy="0" r="500" gradientUnits="userSpaceOnUse">
+            <stop offset="0.55" stop-color="#16243d"/><stop offset="0.96" stop-color="#0c1628"/><stop offset="1" stop-color="#07101f"/>
+          </radialGradient>
+        </defs>
+        <circle r="496" fill="url(#dial-shade)" stroke="#060d19" stroke-width="6"/>
+        <g stroke="rgba(255,255,255,0.07)" stroke-width="2">{{dial_ridges}}</g>
+        <circle r="430" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+        <circle r="190" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+        <g stroke="rgba(255,255,255,0.16)" stroke-width="2">{{dial_dividers}}</g>
+      </svg>
+      {{dial_segments}}
+    </div>
+    <div class="dial__highlight" style="--step:{{step}}deg" aria-hidden="true"></div>
+    <span class="dial__pointer" aria-hidden="true"></span>
+    <button class="dial__arrow dial__arrow--prev" type="button" data-dial-prev aria-label="Previous project">{{icon_prev}}</button>
+    <button class="dial__arrow dial__arrow--next" type="button" data-dial-next aria-label="Next project">{{icon_next}}</button>
+    <a class="dial__knob" href="{{first_href}}" data-dial-enter>
+      <span data-dial-index>01 / {{count}}</span>
+      <strong>Enter</strong>
+    </a>
+  </div>
+</section>
+
+<!-- The file: every project as a sheet in one folder. Tabs pop up out of it as it scrolls in;
+     pulling a tab lifts that sheet to show its description, and opening it goes to the project. -->
+<section class="tech-files" aria-labelledby="tech-files-title">
+  <div class="tech-files__head">
+    <h2 class="section-title" id="tech-files-title" data-reveal>All projects</h2>
+    <p class="tech-files__hint" data-reveal style="--delay:0.1s">Pull a tab to read the file, then open it.</p>
+  </div>
+  <div class="folder" data-folder style="--files:{{file_count}}">
+    <div class="folder__back" aria-hidden="true"></div>
+    {{folder_sheets}}
+    <div class="folder__front" aria-hidden="true">
+      <span class="folder__label">Tech <i>files</i></span>
+      <span class="folder__count">{{file_count}} files</span>
+      <span class="folder__stamp">tanmaykaper</span>
+    </div>
+  </div>
+</section>
+
+{{footer}}

@@ -1,0 +1,82 @@
+[
+  {
+    "src": "/assets/img/work/intro/01",
+    "w": 600,
+    "h": 400,
+    "alt": "Nightwalk Fashion featured graphic tee, shot for the label's launch",
+    "project": "nightwalk",
+    "fit": "cover"
+  },
+  {
+    "src": "/assets/img/work/intro/02",
+    "w": 640,
+    "h": 400,
+    "alt": "Arnifi Global Systems logo",
+    "project": "arnifi",
+    "fit": "contain"
+  },
+  {
+    "src": "/assets/img/work/intro/03",
+    "w": 225,
+    "h": 400,
+    "alt": "Nightwalk Fashion new-drop collage: models in oversized graphic tees in lavender, navy and black",
+    "project": "nightwalk",
+    "fit": "cover"
+  },
+  {
+    "src": "/assets/img/work/intro/04",
+    "w": 600,
+    "h": 400,
+    "alt": "Close-up of a black Nightwalk tee with the Unlimited chest print",
+    "project": "nightwalk",
+    "fit": "cover"
+  },
+  {
+    "src": "/assets/img/work/intro/05",
+    "w": 400,
+    "h": 400,
+    "alt": "Beige tee with a fine white line drawing of a looping string heart",
+    "project": "nightwalk",
+    "fit": "cover"
+  },
+  {
+    "src": "/assets/img/work/intro/06",
+    "w": 320,
+    "h": 400,
+    "alt": "Lilac tee on a mannequin with a stacked Saved typographic print and a green butterfly",
+    "project": "nightwalk",
+    "fit": "cover"
+  },
+  {
+    "src": "/assets/img/work/intro/07",
+    "w": 320,
+    "h": 400,
+    "alt": "Maroon tee on a hanger with a small anatomical heart chest print",
+    "project": "nightwalk",
+    "fit": "cover"
+  },
+  {
+    "src": "/assets/img/work/intro/08",
+    "w": 400,
+    "h": 400,
+    "alt": "White oversized tee with a graffiti This Is Mystery back print over a pastel sky",
+    "project": "nightwalk",
+    "fit": "cover"
+  },
+  {
+    "src": "/assets/img/work/intro/09",
+    "w": 400,
+    "h": 400,
+    "alt": "Charcoal tee with a purple Hunter print, a suited figure and Japanese lettering",
+    "project": "nightwalk",
+    "fit": "cover"
+  },
+  {
+    "src": "/assets/img/work/intro/10",
+    "w": 400,
+    "h": 400,
+    "alt": "White tee with a stacked Fly High, Stay High print around a winged statue",
+    "project": "nightwalk",
+    "fit": "cover"
+  }
+]

@@ -1,0 +1,34 @@
+  <!-- GitHub, recreated (GitHub pages can't be iframed). Filled live by github-repo.js when a repo is set. -->
+  <section class="repo" data-github-repo="{{repo}}" aria-label="Repository" data-reveal>
+    <header class="repo__head">
+      <span class="repo__icon">{{icon_github}}</span>
+      <a class="repo__name" data-repo-link href="{{repo_url}}" target="_blank" rel="noopener"><span data-repo-name>{{repo_label}}</span></a>
+      <span class="repo__badge">Public</span>
+      <span class="repo__stats">
+        <span>{{icon_star}} <b data-repo-stars>--</b></span>
+        <span>{{icon_fork}} <b data-repo-forks>--</b></span>
+        <span>{{icon_eye}} <b data-repo-watchers>--</b></span>
+      </span>
+    </header>
+    <div class="repo__grid">
+      <div class="repo__main">
+        <div class="repo__tabbar"><span class="is-on">{{icon_book}} README</span><span data-repo-updated>{{updated}}</span></div>
+        <div class="repo__readme" data-repo-readme data-lenis-prevent tabindex="0" aria-label="README">{{readme_placeholder}}</div>
+      </div>
+      <aside class="repo__side">
+        <h3>About</h3>
+        <p data-repo-desc>{{tagline}}</p>
+        <ul class="repo__topics" data-repo-topics>{{topics}}</ul>
+        <h3>Languages</h3>
+        <div class="repo__langbar" data-repo-langbar><span style="width:58%;background:#9fb4cf"></span><span style="width:30%;background:#cfd9e6"></span><span style="width:12%;background:#ffffff"></span></div>
+        <ul class="repo__langs" data-repo-langs><li><i style="background:#9fb4cf"></i>[Language]</li><li><i style="background:#cfd9e6"></i>[Language]</li></ul>
+        <h3>Latest commits</h3>
+        <ul class="repo__commits" data-repo-commits>
+          <li class="repo__commit"><span class="repo__skeleton"></span></li>
+          <li class="repo__commit"><span class="repo__skeleton"></span></li>
+          <li class="repo__commit"><span class="repo__skeleton"></span></li>
+        </ul>
+        <p class="repo__status" data-repo-status>{{repo_status}}</p>
+      </aside>
+    </div>
+  </section>

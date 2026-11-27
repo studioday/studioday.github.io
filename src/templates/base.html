@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="author" content="Tanmay Kaper">
+<meta property="og:type" content="{{og_type}}">
+<meta property="og:site_name" content="Tanmay Kaper">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:image" content="{{og_image}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Tanmay Kaper: experiences built in analysis and expression, with a fanned hand of playing cards on a sky.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="{{theme_color}}">
+<meta name="color-scheme" content="only light">
+<meta name="twitter:title" content="{{title}}">
+<meta name="twitter:description" content="{{description}}">
+<meta name="twitter:image" content="{{og_image}}">
+{{canonical}}
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preload" href="/assets/fonts/Inter-400-900-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/InstrumentSerif-Italic-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css?v={{css_ver}}">
+<script>
+document.documentElement.classList.add("js");
+// A card returning to the deck flies above the others until it lands: name the page we came from.
+// Runs in the head because pagereveal fires before the first render.
+// The page we came from is kept too (a file opened from the Tech folder lands with its title settled).
+addEventListener("pagereveal", (e) => {
+  const from = e.viewTransition && window.navigation && navigation.activation && navigation.activation.from;
+  if (!from) return;
+  const path = new URL(from.url).pathname;
+  document.documentElement.dataset.vtFrom = path;
+  const card = { academic: "king", creative: "queen", tech: "jack" }[path.split("/")[1]];
+  if (!card) return;
+  document.documentElement.dataset.vtCard = card;
+  e.viewTransition.finished.finally(() => delete document.documentElement.dataset.vtCard);
+});
+</script>
+{{head_extra}}
+</head>
+<body class="{{body_class}}" data-phase="{{phase}}">
+<a class="skip-link" href="#main">Skip to content</a>
+{{> header}}
+<main id="main">
+{{content}}
+</main>
+<script type="module" src="/assets/{{js_dir}}/main.js"></script>
+</body>
+</html>

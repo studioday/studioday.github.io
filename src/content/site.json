@@ -1,0 +1,75 @@
+{
+  "name": "Tanmay Kaper",
+  "url": "https://studioday.github.io",
+  "email": "tanmay.kaper1401@gmail.com",
+  "instagram": "https://www.instagram.com/kapertanmay",
+  "linkedin": "https://www.linkedin.com/in/tanmay-k-a344b1226/",
+  "github": "https://github.com/tanmaykaper",
+  "description": "Tanmay Kaper: experiences built in analysis and expression. Economics research, creative digital work and code, from Bombay, India.",
+  "cat": {
+    "standing": "/assets/img/cat/sit.svg",
+    "run1": "/assets/img/cat/run-1.svg",
+    "run2": "/assets/img/cat/run-2.svg"
+  },
+  "toolkit": [
+    "Economics",
+    "Econometrics",
+    "Cost-benefit analysis",
+    "Python",
+    "R",
+    "SQL",
+    "Excel",
+    "SAP Analytics Cloud",
+    "SAP Datasphere",
+    "Java",
+    "HTML & CSS",
+    "UI/UX",
+    "Web Design",
+    "Framer",
+    "Figma",
+    "Apparel Design",
+    "Instagram Marketing",
+    "Video Editing",
+    "After Effects",
+    "Premiere Pro",
+    "Photoshop",
+    "Illustrator",
+    "CorelDRAW"
+  ],
+  "about": {
+    "currently": "B.Sc. Economics at NMIMS, Mumbai",
+    "based": "Bombay, India",
+    "afterHours": "Cooking and basketball",
+    "open": true,
+    "resume": "#record",
+    "focus": "Economics x Design",
+    "hometown": "Gurugram, Haryana",
+    "interests": [
+      {
+        "label": "Cooking",
+        "icon": "cooking-pot",
+        "note": "",
+        "photo": ""
+      },
+      {
+        "label": "Basketball",
+        "icon": "basketball",
+        "note": "",
+        "photo": ""
+      },
+      {
+        "label": "Literature",
+        "icon": "books",
+        "note": "",
+        "photo": ""
+      },
+      {
+        "label": "Japanese",
+        "icon": "translate",
+        "note": "JLPT N3",
+        "photo": ""
+      }
+    ],
+    "note": "Bracketed values are placeholders shown on the About page until replaced. An interest without a photo shows its icon card; add a photo path to swap it in. resume: a URL opens in a new tab, '#record' scrolls to the record section."
+  }
+}

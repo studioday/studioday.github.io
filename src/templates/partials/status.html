@@ -1,0 +1,13 @@
+  <!-- Work in progress: no public repository yet, so the panel is a render queue for the build -->
+  <section class="queue" aria-labelledby="queue-title" data-reveal>
+    <header class="queue__head">
+      <h2 class="queue__title" id="queue-title">Render queue</h2>
+      <span class="queue__badge">{{status}}</span>
+    </header>
+    <div class="queue__row">
+      <span class="queue__name" data-face="{{face}}">{{title}}</span>
+      <span class="queue__bar" aria-hidden="true"><i></i></span>
+      <span class="queue__state">Rendering</span>
+    </div>
+    <p class="queue__note">The model is being built in private. Its code goes public here, as a live GitHub panel like the other projects, once it can cut a first edit on its own.</p>
+  </section>

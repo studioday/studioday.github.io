@@ -1,0 +1,43 @@
+<!-- Handheld console, redrawn as vector from gameboy.png (same palette and outline weight) with a
+     taller screen and a compact control deck. Glass window: x 130-870, y 132-878 of 1000 x 1500. -->
+<svg class="console-svg" viewBox="0 0 1000 1500" aria-hidden="true">
+  <defs>
+    <clipPath id="glass-clip"><rect x="130" y="132" width="740" height="746" rx="20"/></clipPath>
+  </defs>
+  <!-- body: dark rim, then the face -->
+  <path d="M64 18 H936 Q982 18 982 64 V1318 L852 1482 H148 L18 1318 V64 Q18 18 64 18 Z" fill="#006095" stroke="#111" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M76 36 H924 Q962 36 962 74 V1308 L842 1460 H158 L38 1308 V74 Q38 36 76 36 Z" fill="#0397f7"/>
+  <!-- bezel -->
+  <path d="M104 84 H896 Q928 84 928 116 V880 Q928 1004 804 1004 H196 Q72 1004 72 880 V116 Q72 84 104 84 Z" fill="#06d0ff" stroke="#111" stroke-width="7"/>
+  <path d="M104 84 H896 Q928 84 928 116 V140 H72 V116 Q72 84 104 84 Z" fill="#45dcff" opacity="0.5"/>
+  <!-- glass -->
+  <rect x="130" y="132" width="740" height="746" rx="20" fill="#333334" stroke="#111" stroke-width="6"/>
+  <g clip-path="url(#glass-clip)" fill="#ffffff" opacity="0.05">
+    <polygon points="300,132 380,132 130,560 130,420"/>
+    <polygon points="420,132 450,132 130,680 130,630"/>
+  </g>
+
+  <!-- d-pad -->
+  <g class="key" data-key="dpad"><path d="M200 1090 h62 v62 h62 v62 h-62 v62 h-62 v-62 h-62 v-62 h62 z" fill="#363536" stroke="#111" stroke-width="7" stroke-linejoin="round"/></g>
+  <!-- face buttons -->
+  <g stroke="#111" stroke-width="6">
+    <circle class="key" data-key="y" cx="742" cy="1088" r="42" fill="#10c8fc"/>
+    <circle class="key" data-key="z" cx="660" cy="1166" r="42" fill="#16c5fb"/>
+    <circle class="key" data-key="a" cx="824" cy="1166" r="42" fill="#e6e6e5"/>
+    <circle class="key" data-key="b" cx="742" cy="1244" r="42" fill="#e6e6e5"/>
+  </g>
+  <g fill="#fbfefe" font-family="Arial Black, Helvetica, sans-serif" font-weight="900" font-size="38">
+    <text x="672" y="1060">Y</text><text x="588" y="1138">Z</text><text x="866" y="1230">A</text><text x="790" y="1312">B</text>
+  </g>
+  <!-- select / start -->
+  <rect class="key" data-key="select" x="370" y="1318" width="104" height="30" rx="15" fill="#333" stroke="#111" stroke-width="5"/>
+  <rect class="key" data-key="start" x="526" y="1318" width="104" height="30" rx="15" fill="#333" stroke="#111" stroke-width="5"/>
+  <g fill="#fbfefe" font-family="Arial Black, Helvetica, sans-serif" font-weight="900" font-size="22" letter-spacing="1">
+    <text x="372" y="1378">SELECT</text><text x="540" y="1378">START</text>
+  </g>
+  <!-- speaker grills -->
+  <g stroke="#323234" stroke-width="16" stroke-linecap="round">
+    <path d="M120 1330 l60 -60 M140 1370 l80 -80 M170 1400 l80 -80 M210 1420 l60 -60"/>
+    <path d="M880 1330 l-60 -60 M860 1370 l-80 -80 M830 1400 l-80 -80 M790 1420 l-60 -60"/>
+  </g>
+</svg>

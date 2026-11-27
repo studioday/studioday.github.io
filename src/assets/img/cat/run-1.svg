@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 128" width="160" height="128">
+<defs>
+  <filter id="ink" x="-10%" y="-10%" width="120%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="7" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="2.6" xChannelSelector="R" yChannelSelector="G" result="d"/>
+    <feDropShadow in="d" dx="0" dy="1" stdDeviation="0.8" flood-color="#2b5a8c" flood-opacity="0.55"/>
+  </filter>
+</defs>
+<g filter="url(#ink)" fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+
+  <!-- head -->
+  <path d="M118 50 C118 38 130 32 140 36 C150 40 152 52 144 60 C136 66 122 62 118 50 Z"/>
+  <path d="M124 39 L117 25 L133 34"/>
+  <path d="M138 35 L147 22 L148 40"/>
+  <path d="M141 46 l0 0.5" stroke-width="4"/>
+  <path d="M149 53 l10 -2 M149 56 l10 2"/>
+  <!-- body -->
+  <path d="M120 55 C100 45 70 45 52 54"/>
+  <path d="M124 66 C104 79 72 80 54 72"/>
+  <path d="M52 54 C40 58 40 69 54 72"/>
+  <!-- legs stretched -->
+  <path d="M117 70 L139 84 L149 82"/>
+  <path d="M110 74 L129 92 L139 93"/>
+  <path d="M58 70 L36 86 L26 86"/>
+  <path d="M67 74 L46 96 L36 98"/>
+  <!-- tail -->
+  <path d="M48 57 C34 49 24 41 13 43"/>
+ </g>
+</svg>

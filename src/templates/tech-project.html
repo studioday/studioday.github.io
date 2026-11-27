@@ -1,0 +1,32 @@
+{{sky}}
+
+<article class="project">
+  <header class="project-hero">
+    <div class="project-glow project-glow--{{glow_shape}}" style="--glow:{{glow}}" aria-hidden="true"></div>
+    <p class="project-hero__meta" data-reveal>{{year}} / {{role}}</p>
+    <h1 class="project-hero__title reveal-words" data-face="{{face}}">{{title}}</h1>
+    <p class="project-hero__tagline" data-reveal style="--delay:0.3s">{{tagline}}</p>
+    <ul class="pills project-hero__stack" data-reveal style="--delay:0.45s">{{stack}}</ul>
+    <div class="project-hero__links" data-reveal style="--delay:0.6s">{{links}}</div>
+  </header>
+
+  <section class="project-body" aria-label="About the project">
+    <div class="tile project-body__overview" data-reveal>
+      <h2 class="tile__kicker">Overview</h2>
+      <p>{{overview}}</p>
+    </div>
+    <div class="tile project-body__highlights" data-reveal style="--delay:0.1s">
+      <h2 class="tile__kicker">Highlights</h2>
+      <ul>{{highlights}}</ul>
+    </div>
+  </section>
+
+  {{include:repo_template}}
+</article>
+
+<a class="next-paper" href="/tech/{{next_slug}}/">
+  <span class="label">Next project</span>
+  <span class="next-paper__title">{{next_title}}</span>
+</a>
+
+{{footer}}

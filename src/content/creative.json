@@ -1,0 +1,154 @@
+[
+  {
+    "slug": "morfmedia",
+    "title": "MorF Media",
+    "year": "2026",
+    "description": "Architecting a comprehensive digital presence for Morf Media. This project involved end-to-end full-stack development, delivering a seamless agency portfolio optimized for both performance and search visibility. Managed the complete deployment lifecycle, including secure hosting setup and strategic SEO implementation to drive organic reach and elevate their online authority.",
+    "subjects": [
+      "UI/UX",
+      "Web Design"
+    ],
+    "link": null,
+    "image": null,
+    "cartridge": "Agency website, design to deployment",
+    "video": null,
+    "note": "morfmedia.framer.website returned 404 on 2026-10-05; add the new URL here when the site is back"
+  },
+  {
+    "slug": "nightwalk",
+    "title": "Nightwalk Fashion",
+    "year": "2024",
+    "description": "Founded and scaled a pan-India D2C (Direct-to-Consumer) fashion brand specializing in original graphic apparel designed, printed, and marketed individually.\nAchieved operational break-even within the first 2 months of launch through optimized pricing and targeted marketing.\nA sole proprietorship project.",
+    "subjects": [
+      "Apparel Design",
+      "Instagram Marketing",
+      "Web Design",
+      "UI/UX"
+    ],
+    "link": null,
+    "image": {
+      "src": "nightwalk-featured",
+      "position": "49.5% 45.4%",
+      "alt": "Nightwalk Fashion featured graphic tee, shot for the label's launch"
+    },
+    "cartridge": "D2C graphic apparel brand",
+    "video": "U03NrlHucq3Db9frSPeOmLGPOc.mp4",
+    "galleryAlts": [
+      "Nightwalk Fashion new-drop collage: models in oversized graphic tees in lavender, navy and black",
+      "Nightwalk launch poster: navy oversized Money Effect butterfly tee with a 30% brand-launch sale",
+      "Close-up of a black Nightwalk tee with the Unlimited chest print",
+      "Black oversized tee with a crowned Greek statue Complex back print in red and grey",
+      "Beige tee with a fine white line drawing of a looping string heart",
+      "Navy oversized Money Effect tee with a neon butterfly and grid back print",
+      "Lilac tee on a mannequin with a stacked Saved typographic print and a green butterfly",
+      "Maroon tee on a mannequin with a repeated Control print around a flaming eye",
+      "Maroon tee on a hanger with a small anatomical heart chest print",
+      "Man in a cap walking away in a black Terror tee with a floral heart back print",
+      "White oversized tee with a graffiti This Is Mystery back print over a pastel sky",
+      "Close-up of a black tee with the small Nightwalk N logo on the chest",
+      "Charcoal tee with a purple Hunter print, a suited figure and Japanese lettering",
+      "Beige tee with a small Fly High chest print",
+      "White tee with a stacked Fly High, Stay High print around a winged statue",
+      "Lilac tee with a Take the Moon print of a split-colour bust against the moon"
+    ],
+    "videoLabel": "Nightwalk Fashion campaign video"
+  },
+  {
+    "slug": "arnifi",
+    "title": "Arnifi",
+    "year": "2026",
+    "description": "Freelanced as a video editor for Arnifi global systems. From short-form to long-form content, their products and offerings were best portrayed through a variety of 3D and Kinetic-style videos.",
+    "subjects": [
+      "Video Editing",
+      "After Effects",
+      "Figma",
+      "Premiere Pro"
+    ],
+    "link": {
+      "url": "https://www.youtube.com/@Arnifi.official",
+      "label": "View Works"
+    },
+    "image": {
+      "src": "arnifi-logo",
+      "position": "50% 50%",
+      "alt": "Arnifi Global Systems logo"
+    },
+    "cartridge": "3D and kinetic video editing",
+    "video": null
+  },
+  {
+    "slug": "kinda-jeety",
+    "title": "Kinda Jeety",
+    "year": "2026",
+    "description": "Edited long-form videos for Kinda Jeety, a YouTube channel that sets out to educate and entertain with an Indian twist, where the Trencher Turned Teacher series walks new traders through memecoin trading on Solana. Alongside the long-form episodes, cut short-form edits for the feed.",
+    "subjects": [
+      "Video Editing",
+      "Premiere Pro",
+      "After Effects",
+      "YouTube"
+    ],
+    "link": {
+      "url": "https://www.youtube.com/@kindajeety",
+      "label": "Watch the channel"
+    },
+    "image": null,
+    "cartridge": "Long-form YouTube edits and short-form cuts",
+    "video": null,
+    "youtube": [
+      {
+        "id": "ckYRNhkU1DI",
+        "title": "The Ultimate Axiom Filters Guide 2026 (Trencher Turned Teacher, Ep. 6)"
+      },
+      {
+        "id": "zg9IhzQTjFk",
+        "title": "How to Avoid Getting Rugged on Scam Coins (Ep. 5)"
+      },
+      {
+        "id": "D4RfN1SiC5o",
+        "title": "How to Actually Find Your Next 100x Coin (Ep. 4)"
+      },
+      {
+        "id": "WoGh8K_i5eU",
+        "title": "The Best Way to Start Trading Memecoins in 2026 (Ep. 3)"
+      },
+      {
+        "id": "w3UAVWI7xxA",
+        "title": "Solana Spin the Wheel Challenge"
+      },
+      {
+        "id": "6Bu1iZbTnUU",
+        "title": "The Right Mentality While Trading Memecoins (Ep. 2)"
+      },
+      {
+        "id": "FhhjUHTOawk",
+        "title": "Axiom vs Padre: Best Memecoin Trading Platform (Ep. 1)"
+      },
+      {
+        "id": "J-USZt7Z05c",
+        "title": "Turning You into a Profitable Memecoin Trader (Ep. 0)"
+      }
+    ],
+    "shorts": [],
+    "note": "youtube: the long-form videos shown on the console (newest first). Keep only the ones Tanmay edited. shorts: add short-form links here when they have a public home."
+  },
+  {
+    "slug": "precomp",
+    "title": "Precomp",
+    "year": "2026",
+    "dev": true,
+    "description": "An auto-editing model, in development: a working store of the design aesthetics and the flow that make an edit feel right, from easing curves and kinetic type to pacing and cuts that land on the sound, built to work inside After Effects. The cartridge is still compiling; the build is filed under Tech.",
+    "subjects": [
+      "After Effects",
+      "Video Editing",
+      "Machine learning"
+    ],
+    "link": {
+      "url": "/tech/precomp/",
+      "label": "Follow the build"
+    },
+    "image": null,
+    "cartridge": "Auto-editing model, in development",
+    "video": null,
+    "note": "Working title. Also on the Tech page (tech.json, slug precomp)."
+  }
+]

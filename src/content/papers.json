@@ -1,0 +1,76 @@
+[
+  {
+    "slug": "should-india-scale-i-drone",
+    "title": "Should India Scale i-Drone?",
+    "year": "September 2026",
+    "abstract": "Should India scale i-Drone, the ICMR's drone delivery of vaccines and medical supplies? An ex-ante cost-benefit analysis of its five pilot districts in Manipur and Nagaland, benchmarked against Intensified Mission Indradhanush.",
+    "summary": "An ex-ante cost-benefit analysis of i-Drone's five pilot districts. On vaccine delivery alone, a drone hub is 2.2 to 7.4 times less cost-effective than intensified outreach.",
+    "subjects": [
+      "Economics",
+      "Public Health"
+    ],
+    "image": null,
+    "pdf": null,
+    "next": "broadcasters-vs-foreign-ott-platforms",
+    "source": "Drone_Research_Paper_FINAL.docx, converted with tools/docx_to_html.py",
+    "order": 1
+  },
+  {
+    "slug": "broadcasters-vs-foreign-ott-platforms",
+    "title": "Comparing the Economic Contribution of Broadcasters and Foreign OTT Platforms in India",
+    "year": "July 2026",
+    "abstract": "Do integrated domestic broadcaster-streamers add more economic value to India than foreign-controlled, subscription-first OTT platforms? Sony Pictures Networks India, Zee Entertainment, Netflix India and Amazon Prime Video compared.",
+    "summary": "India's INR 2.78 trillion media sector, read through a Domestic Value Retention matrix: integrated broadcasters activate more of the value chain than foreign OTT platforms.",
+    "subjects": [
+      "Economics",
+      "Media"
+    ],
+    "image": null,
+    "pdf": null,
+    "next": "the-impact-of-government-intervention-on-demand-for-evs",
+    "source": "India Media Economy Research Report.docx, converted with tools/docx_to_html.py (four typos fixed by hand)",
+    "order": 2,
+    "figureAlts": [
+      "Line chart of India's media and entertainment revenue: INR 220,000 crore in 2022 rising to 278,000 crore in 2025, projected to reach 330,000 crore by 2028",
+      "Bar chart of 2025 revenue by segment: digital media INR 101,000 crore, television 69,500, print 38,000, live events and out-of-home 32,000, filmed entertainment 22,000, other 16,270",
+      "Grouped bar chart of revenue from operations, FY24 against FY25: Sony SPNI INR 6,435 to 6,151 crore, Zee Entertainment 8,420 to 8,099, Netflix India 2,846 to 3,769",
+      "Grouped bar chart of net profit, FY24 against FY25: Sony SPNI INR 843 to 456 crore, Zee Entertainment 199 to 688, Netflix India 52 to 85",
+      "Pie chart of Sony SPNI's FY25 operating revenue of INR 6,151 crore: subscription 52.7%, advertising 42.4%, distribution and other 4.9%",
+      "Bar chart of Sony SPNI's estimated domestic economic impact in FY25: direct GVA INR 3,200 crore, indirect 1,825, induced 1,500, a total of 6,525",
+      "Line chart of active pay-DTH subscribers in India falling from 65 million in December 2022 to 50.99 million in December 2025",
+      "Radar chart scoring Sony SPNI, Zee Entertainment, Netflix India and Amazon Prime Video from 1 to 10 on seven dimensions: the broadcasters score high on linear TV, cable and DTH linkages, local language depth and production, the OTT platforms mainly on OTT"
+    ],
+    "seoTitle": "Broadcasters vs Foreign OTT Platforms in India | Tanmay Kaper",
+    "shortTitle": "Broadcasters vs foreign OTT in India"
+  },
+  {
+    "slug": "the-impact-of-government-intervention-on-demand-for-evs",
+    "title": "The Impact of Government Intervention on Demand for EVs",
+    "year": "2024",
+    "abstract": "To what extent has the Faster Adoption and Manufacturing of (Hybrid &) Electric Vehicles in India - Phase 2 (FAME II) Policy been effective in promoting the use of Electric Vehicles (EVs) in India",
+    "subjects": [
+      "Economics"
+    ],
+    "image": null,
+    "pdf": null,
+    "next": "transfer-of-knowledge",
+    "note": "pdf link pending (Framer pointed at the template author)",
+    "order": 3,
+    "shortTitle": "Government intervention and EV demand"
+  },
+  {
+    "slug": "transfer-of-knowledge",
+    "title": "Transfer of Knowledge",
+    "year": "May 2024",
+    "abstract": "Do we underestimate the challenges of taking knowledge out of its original context and transferring it to a different context? Discuss with reference to two areas of knowledge. ",
+    "subjects": [
+      "Philosophy",
+      "Business"
+    ],
+    "image": null,
+    "pdf": null,
+    "next": "should-india-scale-i-drone",
+    "note": "pdf link pending (Framer pointed at the template author)",
+    "order": 4
+  }
+]

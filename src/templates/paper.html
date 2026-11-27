@@ -1,0 +1,37 @@
+{{sky}}
+
+<article>
+  <header class="paper-hero">
+    <h1 class="page-title{{title_class}} reveal-words">{{title}}</h1>
+    <p class="paper-hero__year" data-reveal style="--delay:0.5s">({{year}})</p>
+    <p class="paper-hero__time" data-reveal style="--delay:0.65s">{{minutes}} min read</p>
+  </header>
+
+  <div class="paper-body">
+  {{toc}}
+  <div class="sheet" data-reveal data-reading>
+    <div class="sheet__meta">
+      <section aria-labelledby="abstract-title">
+        <h2 id="abstract-title">Research question</h2>
+        <p>{{abstract}}</p>
+      </section>
+      <section aria-labelledby="subject-title">
+        <h2 id="subject-title">Subject</h2>
+        <p>{{subjects}}</p>
+      </section>
+    </div>
+    <div class="rich">
+{{content}}
+    </div>
+    {{download}}
+  </div>
+  </div>
+</article>
+
+<a class="next-paper" href="/academic/{{next_slug}}/">
+  <span class="label">Next paper</span>
+  <span class="next-paper__title">{{next_title}}</span>
+  <span class="next-paper__year">({{next_year}})</span>
+</a>
+
+{{footer}}

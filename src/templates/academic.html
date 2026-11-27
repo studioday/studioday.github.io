@@ -1,0 +1,36 @@
+{{sky}}
+
+<section class="drop-hero">
+  <div class="hero-card" style="left:calc(50% - 36vw);top:22%;rotate:-14deg" data-parallax="-0.25" data-parallax-origin="center" data-sway="14" aria-hidden="true">{{card}}</div>
+  <h1 class="drop-title" data-drop-title>Academics</h1>
+  <p class="drop-hero__sub" data-reveal style="--delay:0.9s">Papers in economics, philosophy and business</p>
+</section>
+
+<!-- Flight path: the line draws itself as you scroll and the view follows it over the clouds
+     (after the work timeline on clevir.li) -->
+<section class="flightpath" data-flightpath aria-label="Papers along a timeline" style="height:{{fp_height}}">
+  <div class="flightpath__stage">
+    <div class="flightpath__viewport" aria-hidden="true">
+      <div class="flightpath__plane" data-fp-plane style="height:{{fp_plane_h}}px">
+        {{fp_clouds}}
+        <svg class="fp-svg" viewBox="0 0 1000 {{fp_plane_h}}" preserveAspectRatio="none">
+          <path class="fp-ghost" d="{{fp_path}}"/>
+          <path class="fp-line" d="{{fp_path}}" pathLength="1" data-fp-line/>
+        </svg>
+        {{fp_nodes}}
+      </div>
+    </div>
+    <div class="fp-tiles">
+      {{fp_tiles}}
+    </div>
+  </div>
+</section>
+
+<section class="paper-index" aria-labelledby="index-title">
+  <h2 class="paper-index__title" id="index-title" data-reveal>All papers</h2>
+  <div class="paper-index__row">
+    {{index_tiles}}
+  </div>
+</section>
+
+{{footer}}

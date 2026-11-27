@@ -1,0 +1,104 @@
+{
+  "note": "From NMIMS_Tanmay_Kaper_CV.pdf (2026-10-06). Date of birth, phone number and home address are left out on purpose: this page is public.",
+  "experience": [
+    {
+      "role": "Consulting Intern, TE-SAP",
+      "org": "KPMG, Mumbai",
+      "detail": "Client: Sony Pictures Networks India",
+      "when": "May to Jul 2026",
+      "points": [
+        "Built a C-suite performance dashboard for the SPNI CEO across a $140M+ portfolio, with data loading 42% faster for real-time decisions",
+        "Built an econometric model of viewership KPIs (45M+ monthly users, 12B+ minutes) and presented it to senior partners; forecast accuracy rose 28%",
+        "Designed Python ETL and SAP cloud workflows that cut manual processing by 95%, a projected $120K+ a year in savings"
+      ]
+    },
+    {
+      "role": "Strategic Management Intern",
+      "org": "Donate an Hour Foundation, Gurugram",
+      "when": "Jun to Jul 2025",
+      "points": [
+        "Developed and put in place strategic frameworks to run the foundation more efficiently and widen its outreach programmes"
+      ]
+    },
+    {
+      "role": "Product Management Intern",
+      "org": "Yokohama Off-Highway Tyres, Mumbai",
+      "when": "Jun to Jul 2023",
+      "points": [
+        "Audited 200+ SKUs with automated Python pipelines and found pricing gaps worth a projected 4.5% margin uplift",
+        "Presented pricing recommendations to leadership covering ₹1.5 crore+ in annual revenue opportunities"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "role": "Head of Department, Research and Development",
+      "org": "Shasthrarth 2025, NMIMS SAMSOE",
+      "points": [
+        "Ran logistics and operations for SAMVAAD, the school's first Model UN (100+ participants)",
+        "Wrote 50+ Oxford-style motions for the National Debate Fest, with 20+ colleges from across India"
+      ]
+    },
+    {
+      "role": "Founder",
+      "org": "Nightwalk Fashion",
+      "points": [
+        "Founded and scaled a pan-India D2C graphic apparel label that broke even within two months of launch"
+      ]
+    },
+    {
+      "role": "Academic Tutor and Research Mentor",
+      "org": "Independent",
+      "points": [
+        "Mentored 20+ international students across four global boards, with custom curricula up to diploma-level economics and management; results rose by two or more grade bands"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "what": "B.Sc. Economics",
+      "where": "Sarla Anil Modi School of Economics, NMIMS, Mumbai",
+      "when": "2024 to now",
+      "note": "CGPA 8.55 (semesters 1 to 4)"
+    },
+    {
+      "what": "IB Diploma",
+      "where": "Edubridge International School, Mumbai",
+      "when": "2024",
+      "note": "94.3%"
+    },
+    {
+      "what": "Class X, CBSE",
+      "where": "Amity International School, Gurugram",
+      "when": "2022",
+      "note": "92.2%"
+    }
+  ],
+  "awards": [
+    {
+      "what": "1st place",
+      "event": "Thinqbator International Business Competition",
+      "note": "Judged a scalable business model and market strategy as a venture capitalist"
+    },
+    {
+      "what": "Gold",
+      "event": "The Queen's Commonwealth Essay Competition 2023",
+      "note": "For critical thinking and writing, against thousands of international entries"
+    },
+    {
+      "what": "Global finalist, top 10%",
+      "event": "Rise International Competition",
+      "note": "For a social impact project"
+    },
+    {
+      "what": "National exhibitor",
+      "event": "IB Festival of Hope",
+      "note": "Showed a rural education initiative to a global audience"
+    }
+  ],
+  "languages": [
+    "English (native)",
+    "Hindi (native)",
+    "Japanese (JLPT N3)"
+  ]
+}

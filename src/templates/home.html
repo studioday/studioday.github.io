@@ -1,0 +1,215 @@
+{{sky}}
+<div class="grain" aria-hidden="true"></div>
+
+<!-- One day in the sky. Morning: the greeting under the sun, then Icarus falls through the clouds and
+     kneels in a cloud bed while night rises from him. Dawn: the hand of cards. Day: about me.
+     Dusk: the name in the evening mist, the cat on the clouds. -->
+<section class="icarus icarus--home" data-icarus data-phase="day" aria-labelledby="hello">
+  <div class="icarus__stage">
+    <div class="icarus__sun" data-ic="sun" aria-hidden="true"></div>
+    <p class="icarus__line icarus__line--a" data-ic="lineA" aria-hidden="true">For stagnation</p>
+    <p class="icarus__line icarus__line--b" data-ic="lineB" aria-hidden="true">equals obsolescence.</p>
+    <div class="icarus__clouds icarus__clouds--back" data-ic="cloudsBack" aria-hidden="true">
+      <span class="sky-cloud cloud-img-2" style="left:-14%;top:70%;width:38vw"><i></i></span>
+      <span class="sky-cloud cloud-img-3" style="left:72%;top:64%;width:32vw"><i></i></span>
+    </div>
+    <!-- the greeting: one clean heading for crawlers and screen readers; the script types into the visible span -->
+    <div class="icarus__hello" data-ic="hello">
+      <h1 class="typewriter" id="hello" data-typewriter="Hi, I'm Tanmay Kaper. " aria-label="Hi, I'm Tanmay Kaper.">
+        <span class="typewriter__text">Hi, I'm Tanmay Kaper.</span><span class="typewriter__cursor" aria-hidden="true">|</span>
+      </h1>
+      <p class="icarus__cue" aria-hidden="true"><span>scroll</span><i></i></p>
+    </div>
+    <p class="sr-only">For stagnation equals obsolescence.</p>
+    <div class="icarus__figure" data-ic="figure" aria-hidden="true">
+      <picture><source srcset="/assets/img/about/icarus.avif" type="image/avif"><img src="/assets/img/about/icarus.png" alt="Charcoal drawing of Icarus falling headfirst, wings breaking apart into loose feathers" width="736" height="800" loading="lazy" decoding="async"></picture>
+    </div>
+    <div class="icarus__feathers" aria-hidden="true">{{feathers}}</div>
+    <div class="icarus__clouds icarus__clouds--front" data-ic="cloudsFront" aria-hidden="true">
+      <span class="sky-cloud cloud-img-1" style="left:-30%;top:84%;width:56vw"><i></i></span>
+      <span class="sky-cloud cloud-img-2" style="left:70%;top:118%;width:52vw"><i></i></span>
+      <span class="sky-cloud cloud-img-3" style="left:-22%;top:170%;width:48vw"><i></i></span>
+      <span class="sky-cloud cloud-img-1" style="left:66%;top:205%;width:58vw"><i></i></span>
+    </div>
+
+    <!-- the ending: darkness rises from the kneeling figure; ink turns to chalk so he stays visible -->
+    <div class="icarus__dark" data-ic="dark" aria-hidden="true"></div>
+    <div class="icarus__end" data-ic="end">
+      <div class="icarus__bed icarus__bed--back" data-ic="bedBack" aria-hidden="true">
+        <span class="sky-cloud cloud-img-3" style="left:-6%;bottom:2%;width:54vw"><i></i></span>
+        <span class="sky-cloud cloud-img-2" style="left:52%;bottom:4%;width:56vw"><i></i></span>
+      </div>
+      <div class="icarus__smoke" data-ic="smoke" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <figure class="icarus__kneel">
+        <span class="icarus__halo" data-ic="halo" aria-hidden="true"></span>
+        <div class="icarus__breath">
+          <picture class="icarus__kneel-ink"><source srcset="/assets/img/about/icarus-kneel.avif" type="image/avif"><img src="/assets/img/about/icarus-kneel.png" alt="Pencil drawing of Icarus kneeling after the fall, wings torn, head bowed and wrists bound" width="384" height="458" loading="lazy" decoding="async"></picture>
+          <picture class="icarus__kneel-chalk" data-ic="chalk" aria-hidden="true"><source srcset="/assets/img/about/icarus-kneel-chalk.avif" type="image/avif"><img src="/assets/img/about/icarus-kneel-chalk.png" alt="The same kneeling Icarus redrawn in pale chalk lines, glowing against the dark" width="384" height="458" loading="lazy" decoding="async"></picture>
+        </div>
+      </figure>
+      <div class="icarus__bed icarus__bed--front" data-ic="bedFront" aria-hidden="true">
+        <span class="sky-cloud cloud-img-1" style="left:-14%;bottom:-24%;width:62vw"><i></i></span>
+        <span class="sky-cloud cloud-img-3" style="left:24%;bottom:-31%;width:54vw"><i></i></span>
+        <span class="sky-cloud cloud-img-2" style="left:58%;bottom:-26%;width:60vw"><i></i></span>
+      </div>
+      <div class="icarus__floor" data-ic="floor" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+<!-- out of the dark and back into the sky -->
+<div class="icarus-dawn" data-phase="dawn" aria-hidden="true"></div>
+
+<!-- Dawn: the four cards are the site navigation -->
+<section class="home-deck" id="deck" data-home data-phase="dawn" aria-labelledby="statement-title">
+  <div class="cloud-bank cloud-bank--pass" data-parallax="-0.2" data-parallax-origin="center" data-sway="30" aria-hidden="true">
+    {{cloud_bank_pass}}
+  </div>
+  <nav class="cards" aria-label="Pick a card" data-cards>
+    <a class="card card--king" href="/academic/" data-doodle="academics" aria-label="Academics">
+      <span class="card__inner">{{card_king}}</span>
+    </a>
+    <a class="card card--queen" href="/creative/" data-doodle="creatives" aria-label="Creatives">
+      <span class="card__inner">{{card_queen}}</span>
+    </a>
+    <a class="card card--jack" href="/tech/" data-doodle="tech" aria-label="Tech">
+      <span class="card__inner">{{card_jack}}</span>
+    </a>
+    <span class="doodle doodle--academics" data-doodle-for="academics" aria-hidden="true">
+      <span class="doodle__text">academics</span>
+      <svg class="doodle__arrow" viewBox="0 0 72 54"><path pathLength="1" d="M4 10 C 22 2, 46 10, 60 40"/><path pathLength="1" d="M48 38 L 61 44 L 64 30"/></svg>
+    </span>
+    <span class="doodle doodle--creatives" data-doodle-for="creatives" aria-hidden="true">
+      <span class="doodle__text">creatives</span>
+      <svg class="doodle__arrow" viewBox="0 0 54 66"><path pathLength="1" d="M10 4 C 4 24, 34 34, 34 60"/><path pathLength="1" d="M24 52 L 34 62 L 43 51"/></svg>
+    </span>
+    <span class="doodle doodle--tech" data-doodle-for="tech" aria-hidden="true">
+      <span class="doodle__text">tech</span>
+      <svg class="doodle__arrow" viewBox="0 0 72 54"><path pathLength="1" d="M68 10 C 50 2, 26 10, 12 40"/><path pathLength="1" d="M24 38 L 11 44 L 8 30"/></svg>
+    </span>
+  </nav>
+  <div class="statement">
+    <h2 id="statement-title" data-reveal>experiences built in <em>analysis</em> and <em>expression</em></h2>
+    <div class="statement__body" data-reveal style="--delay:0.12s">
+      <p>while not necessarily for the mastery of either, a dabble in both creative digital expression and economic analysis has surrounded the use of my most precious resource. time devoted to exploring the 'why', while the 'how' prevents creative stagnation.</p>
+      <p>for stagnation equals obsolescence.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Day: about me -->
+<section class="me-about" id="about" data-phase="day" aria-labelledby="me-about-title">
+  <h2 class="me-statement" id="me-about-title" data-reveal>About <em>me</em></h2>
+  <div class="collage">
+    <figure class="id-card" data-reveal>
+      <p class="id-card__kicker">Studio day</p>
+      <div class="id-card__body">
+        <img src="/assets/img/portrait.jpg" alt="Portrait of Tanmay Kaper in a dark shirt and tie" width="400" height="387" loading="lazy">
+        <dl>
+          <dt>Name</dt><dd>Tanmay Kaper</dd>
+          <dt>Based in</dt><dd>{{based}}</dd>
+          <dt>Hometown</dt><dd>{{hometown}}</dd>
+          <dt>Focus</dt><dd>{{focus}}</dd>
+        </dl>
+      </div>
+      <span class="id-card__badge">TK</span>
+    </figure>
+    {{interest_cards}}
+  </div>
+</section>
+
+<!-- The record: the CV, read as a page -->
+<section class="record" id="record" aria-labelledby="record-title">
+  <header class="record__intro">
+    <p class="label" data-reveal>The record</p>
+    <h2 class="record__title" id="record-title" data-reveal>Work, study and <em>a few wins</em></h2>
+  </header>
+  <div class="record__grid">
+    <section class="record__col" aria-labelledby="record-work">
+      <h3 class="record__kicker" id="record-work">{{icon_briefcase}} Experience</h3>
+      <ol class="record__list">{{record_experience}}</ol>
+      <h3 class="record__kicker" id="record-lead">{{icon_briefcase}} Leadership and ventures</h3>
+      <ol class="record__list">{{record_leadership}}</ol>
+    </section>
+    <section class="record__col record__col--side" aria-labelledby="record-study">
+      <h3 class="record__kicker" id="record-study">{{icon_cap}} Education</h3>
+      <ol class="record__cards">{{record_education}}</ol>
+      <h3 class="record__kicker" id="record-awards">{{icon_trophy}} Honours</h3>
+      <ol class="record__cards record__cards--awards">{{record_awards}}</ol>
+      <h3 class="record__kicker" id="record-lang">Languages</h3>
+      <ul class="pills record__langs">{{record_languages}}</ul>
+    </section>
+  </div>
+</section>
+
+<div class="about">
+  <div class="about__cols">
+    <section class="tile about__col" data-reveal aria-labelledby="analysis-title">
+      <div>
+        <h2 id="analysis-title">Analysis</h2>
+        <ul class="about__list">{{analysis_items}}</ul>
+      </div>
+      <a class="tile__cta" href="/academic/" data-magnetic>Academics <span aria-hidden="true">&#8599;</span></a>
+    </section>
+    <section class="tile about__col" data-reveal style="--delay:0.08s" aria-labelledby="expression-title">
+      <div>
+        <h2 id="expression-title">Expression</h2>
+        <ul class="about__list">{{expression_items}}</ul>
+      </div>
+      <a class="tile__cta" href="/creative/" data-magnetic>Creatives <span aria-hidden="true">&#8599;</span></a>
+    </section>
+    <section class="tile about__col" data-reveal style="--delay:0.16s" aria-labelledby="tech-title">
+      <div>
+        <h2 id="tech-title">Tech</h2>
+        <ul class="about__list">{{tech_items}}</ul>
+      </div>
+      <a class="tile__cta" href="/tech/" data-magnetic>Tech <span aria-hidden="true">&#8599;</span></a>
+    </section>
+  </div>
+
+  <section class="about__block" aria-labelledby="toolkit-title">
+    <h2 id="toolkit-title" data-reveal>Toolkit</h2>
+    <ul class="pills" data-reveal style="--delay:0.1s">{{toolkit}}</ul>
+  </section>
+
+  <section class="about__block" aria-labelledby="contact-title">
+    <h2 id="contact-title" data-reveal>Say hello</h2>
+    <div class="about__contact" data-reveal style="--delay:0.1s">
+      <a href="mailto:{{email}}">{{roll:{{email}}}}</a>
+      <a href="{{instagram}}" target="_blank" rel="noopener">{{roll:Instagram}}</a>
+      <a href="{{linkedin}}" target="_blank" rel="noopener">{{roll:LinkedIn}}</a>
+      <a href="{{github}}" target="_blank" rel="noopener">{{roll:GitHub}}</a>
+    </div>
+  </section>
+</div>
+
+<!-- Dusk: the glitchy name, seen through the evening mist, with the cat on the clouds in front.
+     After sarthaktiwari.framer.website: open-for-work toggle, links, three facts. The footer links
+     sit on the bottom of the cloud bank. -->
+<section class="me-hero me-hero--finale" data-phase="dusk" aria-label="Tanmay Kaper, open for work">
+  <div class="me-hero__bar">
+    <p class="me-toggle"><span class="me-toggle__switch{{open_class}}" aria-hidden="true"></span><span>{{open_text}}</span></p>
+    <div class="me-hero__actions">
+      <a class="me-icon" href="{{linkedin}}" target="_blank" rel="noopener" aria-label="LinkedIn">{{icon_linkedin}}</a>
+      <a class="me-icon" href="{{instagram}}" target="_blank" rel="noopener" aria-label="Instagram">{{icon_instagram}}</a>
+      <a class="me-icon" href="{{github}}" target="_blank" rel="noopener" aria-label="GitHub">{{icon_github}}</a>
+      <a class="me-icon" href="mailto:{{email}}" aria-label="Email">{{icon_email}}</a>
+      {{resume}}
+    </div>
+  </div>
+  <div class="me-hero__facts">
+    <p data-reveal><span class="me-slash">\ Currently</span><b>{{currently}}</b></p>
+    <p data-reveal style="--delay:0.08s"><span class="me-slash">\ Based in</span><b>{{based}} <span class="me-clock" data-clock hidden></span></b></p>
+    <p data-reveal style="--delay:0.16s"><span class="me-slash">\ After hours</span><b>{{after_hours}}</b></p>
+  </div>
+  <div class="me-finale">
+    <p class="me-name" aria-hidden="true">
+      <span class="me-name__ht me-name__ht--l">ta</span><span class="me-name__solid">n</span><span class="me-name__glitch" data-text="m">m</span><span class="me-name__ht me-name__ht--r">ay</span>
+    </p>
+    <div class="me-mist" data-parallax="-0.06" data-parallax-origin="center" data-sway="22" aria-hidden="true">
+      {{finale_mist}}
+    </div>
+    {{cat}}
+  </div>
+</section>
+
+{{footer}}

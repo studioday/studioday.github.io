@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "nsebot",
+    "title": "nsebot",
+    "tagline": "An NSE paper-trading engine: swing, intraday and momentum strategies sharing one risk core, on free data.",
+    "year": "2026",
+    "role": "Research, design and build",
+    "stack": [
+      "Python",
+      "GitHub Actions",
+      "Yahoo Finance",
+      "Zerodha Kite Connect",
+      "pytest"
+    ],
+    "icon": "chart-line-up",
+    "face": "mono",
+    "glow": {
+      "color": "#3be8a4",
+      "shape": "rise"
+    },
+    "repo": "tanmaykaper/Paper-Trading-Bot",
+    "live": "",
+    "overview": "A lean trading engine for India's National Stock Exchange. Three strategies (end-of-day swing, opening-range intraday and a 12-1 momentum sleeve) run on scheduled GitHub Actions against free Yahoo Finance data, paper-trading by default with a Zerodha Kite adapter ready for live orders. Every figure in the write-up comes from the bot's own code on real NSE data, net of costs, and failed strategies are documented and dropped rather than tuned until they pass.",
+    "highlights": [
+      "Momentum sleeve: +22.6% to +32.6% CAGR on untouched July 2018 to July 2023 data, net of Zerodha costs, against +21.7% for the median smallcap fund (with drawdowns near 50%)",
+      "One risk core: notional and half-Kelly sizing, sector caps, daily loss limits, drawdown latches and a kill switch",
+      "Zerodha Kite adapter with per-endpoint rate limits, duplicate-safe retries and pre-trade margin checks",
+      "Pre-registered out-of-sample tests, a public autopsy of the V2 failure and a live engine that replays the research to within a few tenths of a point"
+    ],
+    "placeholder": false
+  },
+  {
+    "slug": "outbound-sniper",
+    "title": "Outbound Sniper",
+    "tagline": "A self-running cold outreach engine that sources leads, drafts personal emails with Gemini and sends them on schedule.",
+    "year": "2026",
+    "role": "Design and build",
+    "stack": [
+      "Python",
+      "GitHub Actions",
+      "Gemini 2.0 Flash",
+      "Serper",
+      "Gmail SMTP"
+    ],
+    "icon": "envelope-simple",
+    "face": "stencil",
+    "glow": {
+      "color": "#ff5d4d",
+      "shape": "scope"
+    },
+    "repo": "tanmaykaper/Automated-Targeted-Cold-Emailer",
+    "live": "",
+    "overview": "An autonomous weekly outreach pipeline that runs entirely on scheduled GitHub Actions, at no monthly cost. Each week it sources and scores 20 to 25 leads from managers to the C-suite, drafts a personal email for each with Gemini using one of seven copywriting frameworks, and sends them inside the recipient's local business hours.",
+    "highlights": [
+      "Sources, scores (0 to 100) and de-duplicates leads across 8 industries and 16 regions, India first",
+      "Seven copywriting frameworks (PAS, BAB, AIDA, SAS, QVC, PPPP, FFF) chosen per lead, with tone tuned by region",
+      "Timezone-aware dispatch, a weekly send cap and dry-run modes for safe testing",
+      "Zero infrastructure: a Git-committed CSV is the database and GitHub Actions is the scheduler"
+    ],
+    "placeholder": false
+  },
+  {
+    "slug": "precomp",
+    "title": "Precomp",
+    "status": "In progress",
+    "tagline": "An auto-editing model in progress: a store of the design aesthetics and flow that make a video edit work, built for After Effects.",
+    "year": "2026",
+    "role": "Research, design and build",
+    "stack": [
+      "After Effects",
+      "Premiere Pro",
+      "Machine learning"
+    ],
+    "icon": "film-slate",
+    "face": "serif",
+    "glow": {
+      "color": "#ffc857",
+      "shape": "track"
+    },
+    "repo": "",
+    "live": "",
+    "overview": "An auto-editing model, and the place where everything learned from editing for clients is meant to end up. Precomp aims to hold the key design aesthetic and flow skills of video editing as something a model can use: how type, colour and composition behave in motion, how pace and rhythm carry a viewer, and how a cut lands on the sound. It targets After Effects first, because that is where those decisions are most complex and slowest to repeat by hand.",
+    "highlights": [
+      "Design aesthetics: type, colour, composition and motion styles, stored so a model can apply them",
+      "Flow: pacing, rhythm and transitions, with cuts that land on the sound",
+      "After Effects first: keyframes, easing curves and kinetic type, where an editor's judgement is slowest to repeat",
+      "Shared with the Creatives console, where it plays as a dev cartridge"
+    ],
+    "placeholder": false,
+    "note": "Working title, in progress. No public repo yet; the page shows a build status panel instead."
+  }
+]
